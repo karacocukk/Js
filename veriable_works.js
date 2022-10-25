@@ -41,9 +41,3 @@
 // console.log("Username > 0 ?:",a)
 
 
-
-console.log(Boolean(1n));
-console.log(Boolean(-1n));
-console.log(Boolean(Infinity));
-console.log(Boolean({}));
-console.log(Boolean(Symbol()));

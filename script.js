@@ -79,18 +79,17 @@ counter /= 2;
 
 
 // asagi yuvarlama islemi -> math.floor : 
-console.log("Asagi yuvarlama: ",Math.floor(1.8) )
+// console.log("Asagi yuvarlama: ",Math.floor(1.8) )
 
-// yukarı yuvarlama islemi -> math.ceil : 
-console.log("Yukarı yuvarlama: ", Math.ceil(1.9))
+// // yukarı yuvarlama islemi -> math.ceil : 
+// console.log("Yukarı yuvarlama: ", Math.ceil(1.9))
 
-// yakına yuvarlama islemi -> math.round : 
-console.log("Yakina yuvarlama: ", Math.round(1.5)) // 1.2 -> 1 , 1,4 -> 1 , 1,5 -> 2
+// // yakına yuvarlama islemi -> math.round : 
+// console.log("Yakina yuvarlama: ", Math.round(1.5)) // 1.2 -> 1 , 1,4 -> 1 , 1,5 -> 2
 
-let srting_Number = "11"
-console.log(srting_Number)
+// let srting_Number = "11"
+// console.log(srting_Number)
 
-let new_number  = Number(srting_Number)
-console.log(new_number)
-console.log("Number Counstructor  icine bilgi gönderildi : ",Number("25"))
-
+// let new_number  = Number(srting_Number)
+// console.log(new_number)
+// console.log("Number Counstructor  icine bilgi gönderildi : ",Number("25"))
