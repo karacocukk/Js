@@ -106,8 +106,70 @@ a = Number.isFinite("hello")
 // if (9<5) console.log("hello 3<5");
 // else console.log("merhaba 3 <! 5")
 
-a = window.prompt("a sayisi giriniz: ","0")
-b = window.prompt("b sayisi giriniz: ","0")
+// a = window.prompt("a sayisi giriniz: ","0")
+// b = window.prompt("b sayisi giriniz: ","0")
 
-if (a < b) document.writeln("a sayisi küçüktür b sayisindan ( a < b)")
-else document.writeln("a sayisi küçük veya eşittir b sayisina");
+// if (a < b) document.writeln("a sayisi küçüktür b sayisindan ( a < b)")
+// else document.writeln("a sayisi küçük veya eşittir b sayisina");
+
+
+
+
+    // Operatör                   Sembolü	    Kullanılışı	               İşlem Sonucu
+    // Tekli Negatif Alma	        -	            -a	                 a'nın negatifini alır
+    // Son artım	                ++	            a++	                Önce a'nın değerini al, kullan, sonra 1 artır
+    // Ön artım	                    ++	            ++a	                Önce a'nın değerni 1 artır, sonra kullan
+    // Son azaltım	                --	            a--	                Önce a'nın değerini al, kullan, sonra 1 azalt
+    // Ön azaltım                   --	            --a	                Önce a'nın değerini 1 azalt, sonra kullan
+
+// x = 5
+// y = ++x
+// z = -x
+// document.writeln("x: " ,x)
+// document.writeln("y: " ,y)
+// document.writeln("z: " ,z)
+
+// x = 10
+// y = 5
+// z = 16
+// m = ++x - --y + z++;
+// document.write("<H3>x="+x+"</H3>");
+// document.write("<H3>y="+y+"</H3>");
+// document.write("<H3>z="+z+"</H3>");
+// document.write("<H3>m="+m+"</H3>");
+// 11 - 5 +
+// document.writeln(x+" "+y+" "+z+" "+m)
+
+
+// l = k = 13.72 ;
+// document.write("<H3>l="+l+"</H3>");
+// document.write("<H3>k="+k+"</H3>");
+
+x = 5
+// x *= 10
+// document.writeln(x)
+
+// x = x * 5 -2 -> (5 * 5 ) - 2 -> 23
+// x *= 5 - 2 -> (5-2) = 3 x *= 3
+// document.writeln(x)
+var a, b, c, x ;
+var y, z ;
+a = 5 ; b = 8 ; c = 7 ;
+x = 2 ; y = 7 ; z = 12 ;
+
+// a += b + 5 => a =  a + b + 5
+a =  a + b + 5
+b /= y * z + a * b ;
+c %= x + a;
+z -= x * c + a ;
+// d *= b + (c *= x) ;
+k = c *= x
+document.writeln("a:  ",a)
+document.writeln("b:  ",b)
+document.writeln("c:  ",c)
+document.writeln("z:  ",z)
+document.writeln("k:  ",k)
+
+// document.writeln("a:  ",d)
+
+
