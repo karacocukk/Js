@@ -93,3 +93,16 @@ counter /= 2;
 // let new_number  = Number(srting_Number)
 // console.log(new_number)
 // console.log("Number Counstructor  icine bilgi gönderildi : ",Number("25"))
+
+
+let username = "veysel"
+const domain = "kodluyoruz.org"
+
+let email = username + "@"+ domain
+
+console.log("merhaba",username,"sitemize hoşgeldin","mail adersin:",email)
+
+let info = `Merhaba ${username} sitemize hoşgeldin.. mail adresin ${email}
+mail adresinin uzunluğu: ${email.length}`
+console.log(info)
+

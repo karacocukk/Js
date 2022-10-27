@@ -152,23 +152,23 @@ x = 5
 // x = x * 5 -2 -> (5 * 5 ) - 2 -> 23
 // x *= 5 - 2 -> (5-2) = 3 x *= 3
 // document.writeln(x)
-var a, b, c, x ;
-var y, z ;
-a = 5 ; b = 8 ; c = 7 ;
-x = 2 ; y = 7 ; z = 12 ;
+// var a, b, c, x ;
+// var y, z ;
+// a = 5 ; b = 8 ; c = 7 ;
+// x = 2 ; y = 7 ; z = 12 ;
 
-// a += b + 5 => a =  a + b + 5
-a =  a + b + 5
-b /= y * z + a * b ;
-c %= x + a;
-z -= x * c + a ;
-// d *= b + (c *= x) ;
-k = c *= x
-document.writeln("a:  ",a)
-document.writeln("b:  ",b)
-document.writeln("c:  ",c)
-document.writeln("z:  ",z)
-document.writeln("k:  ",k)
+// // a += b + 5 => a =  a + b + 5
+// a =  a + b + 5
+// b /= y * z + a * b ;
+// c %= x + a;
+// z -= x * c + a ;
+// // d *= b + (c *= x) ;
+// k = c *= x
+// document.writeln("a:  ",a)
+// document.writeln("b:  ",b)
+// document.writeln("c:  ",c)
+// document.writeln("z:  ",z)
+// document.writeln("k:  ",k)
 
 // document.writeln("a:  ",d)
 
