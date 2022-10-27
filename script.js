@@ -20,15 +20,15 @@ serverName = "https//kodluyoruz.com"
 let password = "12345"
 // console.log(password)
 
-let fullName = "veysel okatan"
+// let fullName = "veysel okatan"
 // let ile tanımlanan bilgiyi değiştirme
-fullName = "lorem ipsum dolor"
+// fullName = "lorem ipsum dolor"
 
 // fullName = fullName + " Yeni bilgi"
 // console.log(fullName)
 
-fullName = "Sifirlandi"
-fullName += " ve yeni bilgi eklendii"
+// fullName = "Sifirlandi"
+// fullName += " ve yeni bilgi eklendii"
 // console.log(fullName)
 // console.log(fullName)
 
@@ -153,7 +153,7 @@ counter /= 2;
 
 let email = "karacocukk98@gmail.com"
 let first_name = "veysel"
-let Last_name = "Okatan"
+let Last_name = "OKATAN"
 
 // console.log(email.length) --> nesne uzunluğunu verir
 
@@ -191,5 +191,18 @@ let Last_name = "Okatan"
 
 // ilk harflerini büyük yapmak
 
-let full_name = `${first_name[0].toLocaleUpperCase} ${first_name}`
-console.log(fullName)
+// let full_name = `${first_name[0].toLocaleUpperCase()}${first_name.slice(1)} ${Last_name[0].toLocaleUpperCase()}${Last_name.slice(1).toLocaleLowerCase()}`
+// console.log(full_name)
+
+// console.log(first_name.indexOf("e"))
+// console.log(first_name)
+// console.log(first_name.lastIndexOf("e")) -> aranan değer en son nerede var
+// console.log(first_name.search("e")) 
+// console.log(email.slice(0,10))
+
+// console.log(first_name.concat(' ',Last_name)) --> String birleştirme
+
+// console.log(first_name.charCodeAt("1"))
+
+// console.log(email.split("a")) --> verilen değere göre parçala
+
